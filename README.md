@@ -7,7 +7,7 @@ You should not use this code even if it ends up working. Every single function I
 
 ## But I wanna use it
 
-In case you really want to use this bot. Just make sure to `pip install` every requirements listed in the imports (if they don't come by default) and set the environmental variable `BOT_TOKEN` of your system to your Discord's bot. I reccomend doing all of this in a Python `venv`.
+In case you really want to use this bot. Just make sure to `pip install` every requirements listed in the imports (if they don't come by default) and set all the environmental variables you need (defined in helpers.py) on your system. I reccomend doing all of this in a Python `venv`.
 
 The initial commit works.
 
