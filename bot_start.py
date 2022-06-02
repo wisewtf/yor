@@ -11,7 +11,8 @@ bot = interactions.Client(token=helpers.BOT_TOKEN())
 @bot.command(
     name="cotw",
     description="Replies with this week's #1 comic books on LOCG",
-    scope=869530640788373564,
+    # scope is optional. So you can use it or not, in case you do remember to set the env variable
+    scope=helpers.GUILD_SCOPE(),
 )
 
 async def only_firsts(ctx: interactions.CommandContext):
